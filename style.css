@@ -1,0 +1,97 @@
+body {
+    background-image: url(./images/double-bubble-outline.png);
+    background-repeat:repeat;
+    background-color: rgba(168, 222, 230, 0.678);
+}
+
+.navbar {
+    background-color: rgb(180, 185, 191); 
+    padding: 0%;
+    border-bottom: 3.5px solid rgb(78, 100, 107)!important;
+}
+
+.name {
+    background-color: rgb(99, 158, 191);
+    padding: 15px;
+    margin-left: 4%;
+    box-shadow: 
+    inset 0 0  0 5px rgb(99, 158, 191),
+          0.3em 0.3em 0.6em rgba(0,0,0,0.3);
+}   
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif; 
+}
+
+.nav {
+    margin-right: 4%;
+    width: 450px;
+}
+.nav-item {
+    padding: 5px 25px;
+    border-right: 3px solid rgb(78, 100, 107);
+}
+
+.nav-link {
+    color: rgb(99, 158, 191);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+a:hover {
+    color: rgb(96, 107, 204);
+}
+
+#last {
+    border-right: none;  
+}
+
+.formWrapper {
+    height: 475px;
+    width: 525px;
+    padding: 10px 25px;
+    margin: 40px auto;
+    background-color: rgb(213, 217, 222);
+    box-shadow: 
+    inset 0 0  0 5px rgb(78, 100, 107),
+          0.3em 0.3em 0.6em rgba(0,0,0,0.3);
+}
+
+.contact {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 36px;
+    margin: 0px 15px;
+    padding: 0px;
+    border-bottom: 3px solid rgb(78, 100, 107);
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: rgb(99, 158, 191);
+    border-color: rgb(99, 158, 191);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: rgb(96, 107, 204);
+}
+
+.page-footer {
+    background-color: rgb(180, 185, 191);
+    border-top: 3.5px solid rgb(78, 100, 107)!important;
+}
+
+.footer-copyright {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
