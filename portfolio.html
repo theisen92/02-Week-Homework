@@ -7,13 +7,23 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Andrew Theisen - Portfolio</title>
+
 </head>
 <body>
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+
+
+
+
+    <!-- Nav bar -->
+
+    <nav class="navbar navbar-light">
         <div class="name">
-            <h1>Andrew Theisen</h1>
+            Andrew Theisen
         </div>
         <div class="nav">
             <ul class="nav justify-content-end">
@@ -21,47 +31,75 @@
                   <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                <li class="nav-item" id="last">
+                  <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                 </li>
               </ul>
         </div>
     </nav>
 
-    <main>
+
+
+
+<!-- Portfolio Section -->
+
+    <main class="portWrapper container">
         <div class="row">
-            <div class="col-med">
-             <h2>Portfolio</h2> 
-                <div class="row">
-                    <div class="col">
-                        <div style="width: 150px; height: 150px; background: gray;"></div>
-                    </div>
-                    <div class="col">
-                        <div style="width: 150px; height: 150px; background: gray;"></div>
-                    </div>
+            <div class="col-md cardTitle">
+                Portfolio 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm box">
+                <img class="portImage" src="./images/animal.jpg" alt="Picture of a small dog">
+                <div class="banner">
+                    Animal
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <div style="width: 150px; height: 150px; background: gray;"></div>
-                    </div>
-                    <div class="col">
-                        <div style="width: 150px; height: 150px; background: gray;"></div>
-                    </div>
+            </div>
+            <div class="col-sm box">
+                <img class="portImage" src="./images/arch.jpg" alt="Picture of building and tree">
+                <div class="banner">
+                    Architecture
                 </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div style="width: 150px; height: 150px; background: gray;"></div>
-                    </div>
-                </div>    
-            </div>        
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm box">
+                <img class="portImage" src="./images/live-event.jpg" alt="Picture of a crowd at a live concert">
+                <div class="banner">
+                    Live event
+                </div>
+            </div>
+            <div class="col-sm box">
+                <img class="portImage" src="./images/outdoor.jpg" alt="Picture of guy walking next to a lake">
+                <div class="banner">
+                    Outdoor
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row space-bottom">
+            <div class="col-sm box">
+                <img class="portImage" src="./images/couple.jpg" alt="Picture of a couple standing near a lake on a sand bank">
+                <div class="banner">
+                    Couples
+                </div>
+            </div> 
+            <div class="col-sm box">
+            </div>           
         </div>
     </main>
 
+
+
+
+    <!-- Footer -->
+
     <footer class="page-footer font-small fixed-bottom">
         <div class="footer-copyright text-center py-3">
-            <p>© 2020 Copyright</p>
+            © 2020 Copyright
         </div>  
     </footer>
 </body>

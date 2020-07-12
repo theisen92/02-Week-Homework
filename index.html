@@ -7,56 +7,81 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Andrew Theisen - About</title>
+
 </head>
 <body>
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+
+
+
+
+    <!-- Nav bar -->
+
+    <nav class="navbar navbar-light">
         <div class="name">
-            <h1>Andrew Theisen</h1>
+            Andrew Theisen
         </div>
         <div class="nav">
             <ul class="nav justify-content-end">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                <li class="nav-item" id="last">
+                  <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                 </li>
               </ul>
         </div>
     </nav>
 
-    <main class="about">
-        <div class="row">
-            <div class="col-sm">
-              <h2>About Me</h2>
-            </div>
+
+
+
+<!-- About Section -->
+
+<main class="aboutWrapper container">
+    <div class="row">
+        <div class="col-sm cardTitle">
+          About Me
         </div>
-        <div class="row">
-            <div class="col-sm">
-                <div class="media">
-                    <img class="align-self-start mr-3" src="https://www.fillmurray.com/200/150" alt="Generic placeholder image">
-                    <div class="media-body">
-                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                    <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    </div>
-                </div>
-            </div>
+    </div>
+    <section class="d-none d-sm-block space-top">
+        <img class="wide-screen" src="./images/pic-of-me-baw.jpeg" alt="Picture of Andrew Theisen holding a coffee mug">
+        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+        <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra gravida ligula, vitae porttitor lorem posuere eu. Donec consectetur sapien nec sapien ornare scelerisque. Maecenas lectus orci, mollis non dolor sed, pulvinar blandit enim.</p>
+        <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec consectetur sapien nec sapien ornare scelerisque. Maecenas lectus orci, mollis non dolor sed, pulvinar blandit enim.</p>
+    </section>
+    </div>
+    <div class="row d-sm-none">
+        <div class="col-sm">
+            <img class="pic-me" src="./images/pic-of-me-baw.jpeg" alt="Picture of Andrew Theisen holding a coffee mug">
         </div>
-        <div class="row">
-            <div class="col-sm">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra gravida ligula, vitae porttitor lorem posuere eu. Donec consectetur sapien nec sapien ornare scelerisque. Maecenas lectus orci, mollis non dolor sed, pulvinar blandit enim.</p>
-            </div>
+    </div>  
+    <div class="row d-sm-none">
+        <div class="col-sm">
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+            <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra gravida ligula, vitae porttitor</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra gravida ligula, vitae porttitor lorem posuere eu. Donec consectetur sapien nec sapien ornare scelerisque. Maecenas lectus orci, mollis non dolor sed, pulvinar blandit enim.</p>
+            <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec consectetur sapien nec sapien ornare scelerisque. Maecenas lectus orci, mollis non dolor sed, pulvinar blandit enim.</p>
         </div>
-    </main>
+    </div>
+</main>
+
+
+
+
+    <!-- Footer -->
 
     <footer class="page-footer font-small fixed-bottom">
         <div class="footer-copyright text-center py-3">
-            <p>© 2020 Copyright</p>
+            © 2020 Copyright
         </div>  
     </footer>
 </body>
