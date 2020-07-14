@@ -3,6 +3,7 @@
 body {
   background-image: url(./images/double-bubble-outline.png);
   background-repeat: repeat;
+  width: 100%;
 }
 
 /* Styling for the Nav bar */
@@ -72,7 +73,7 @@ a:hover {
 
 /* Styling for the About Section */
 
-.space-top {
+.space-top-about {
   margin-top: 16px;
 }
 
@@ -102,15 +103,11 @@ p {
 
 /* Styling for the Portfolio Section */
 
-.box {
-  position: relative;
-  float: left;
-  padding: 0px;
-  margin: 0px 15px;
+.space-top-port {
+  margin-top: 30px;
 }
 
 .portImage {
-  margin-top: 30px;
   width: 100%;
   height: auto;
   border: 5px solid rgb(78, 100, 107);
@@ -118,7 +115,7 @@ p {
 
 .banner {
   position: relative;
-  bottom: 9vh;
+  bottom: 80px;
   width: 100%;
   background-color: rgba(78, 100, 107, 1);
   color: rgb(213, 217, 222);
@@ -127,10 +124,6 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   padding: 5px 0px;
-}
-
-.space-bottom {
-  margin-bottom: 30px;
 }
 
 /* Styling for the Contact Form */
