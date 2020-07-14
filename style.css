@@ -1,254 +1,215 @@
 /* Website background */
 
 body {
-    background-image: url(./images/double-bubble-outline.png);
-    background-repeat:repeat;
+  background-image: url(./images/double-bubble-outline.png);
+  background-repeat: repeat;
 }
-
-
-
 
 /* Styling for the Nav bar */
 
 .navbar {
-    background-color: rgb(180, 185, 191); 
-    padding: 0%;
-    border-bottom: 3.5px solid rgb(78, 100, 107)!important;
+  background-color: rgb(180, 185, 191);
+  padding: 0%;
+  border-bottom: 3.5px solid rgb(78, 100, 107) !important;
 }
 
 .name {
-    font-family: 'IBM Plex Sans', sans-serif; 
-    font-size: 36px;
-    background-color: rgb(99, 158, 191);
-    padding: 15px;
-    margin-left: 4%;
-    box-shadow: 
-    inset 0 0  0 5px rgb(99, 158, 191),
-          0.3em 0.3em 0.6em rgba(0,0,0,0.3);
-}   
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
+  background-color: rgb(99, 158, 191);
+  padding: 15px;
+  margin-left: 4%;
+  box-shadow: inset 0 0 0 5px rgb(99, 158, 191),
+    0.3em 0.3em 0.6em rgba(0, 0, 0, 0.3);
+}
 
 .nav {
-    margin-right: 4%;
-    width: 450px;
+  margin-right: 4%;
+  width: 450px;
 }
 .nav-item {
-    padding: 5px 25px;
-    border-right: 3px solid rgb(78, 100, 107);
+  padding: 5px 25px;
+  border-right: 3px solid rgb(78, 100, 107);
 }
 
 .nav-link {
-    color: rgb(78, 100, 107);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+  color: rgb(78, 100, 107);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 a:hover {
-    color: rgb(96, 107, 204);
+  color: rgb(96, 107, 204);
 }
 
 #last {
-    border-right: none;  
+  border-right: none;
 }
-
-
-
 
 /* Styling for the wrappers */
 
-.aboutWrapper, .portWrapper, .formWrapper {
-    height: auto;
-    width: 80%;
-    padding: 10px 25px;
-    margin: 40px auto 7% auto;
-    background-color: rgb(213, 217, 222);
-    box-shadow: 
-    inset 0 0  0 5px rgb(78, 100, 107),
-          0.3em 0.3em 0.6em rgba(0,0,0,0.3);
+.aboutWrapper,
+.portWrapper,
+.formWrapper {
+  height: auto;
+  width: 80%;
+  padding: 10px 25px;
+  margin: 40px auto 7% auto;
+  background-color: rgb(213, 217, 222);
+  box-shadow: inset 0 0 0 5px rgb(78, 100, 107),
+    0.3em 0.3em 0.6em rgba(0, 0, 0, 0.3);
 }
-
-
-
 
 /* Styling for the card titles */
 
 .cardTitle {
-    font-family: 'IBM Plex Sans', sans-serif; 
-    font-size: 36px;
-    margin: 0px 15px;
-    padding: 0px;
-    border-bottom: 3px solid rgb(78, 100, 107);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
+  margin: 0px 15px;
+  padding: 0px;
+  border-bottom: 3px solid rgb(78, 100, 107);
 }
-
-
-
 
 /* Styling for the About Section */
 
 .space-top {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
-
-.pic-me, .wide-screen {
-    height: 218px;
-    width: 218px;
-    border: 5px solid rgb(78, 100, 107);
+.pic-me,
+.wide-screen {
+  height: 218px;
+  width: 218px;
+  border: 5px solid rgb(78, 100, 107);
 }
 
 .pic-me {
-    width: 100%;
-    height: auto;
-    margin-bottom: 16px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
 }
 
 .wide-screen {
-    float: left;
-    margin-bottom: 5px;
-    margin-right: 10px;
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 10px;
 }
-
-
-
 
 /* Styling for the Portfolio Section */
 
 .box {
-    position: relative;
-    padding: 0px;
-    margin: 0px 15px;
+  position: relative;
+  padding: 0px;
+  margin: 0px 15px;
 }
 
 .portImage {
-    margin-top: 30px;
-    width: 100%;
-    border: 5px solid rgb(78, 100, 107);
+  margin-top: 30px;
+  width: 100%;
+  border: 5px solid rgb(78, 100, 107);
 }
 
 .banner {
-    position: absolute;
-    width: 100%;
-    bottom: 5%;
-    background-color:rgba(78, 100, 107, 1);
-    color: rgb(213, 217, 222);
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500; 
-    padding: 5px 0px;
+  position: absolute;
+  width: 100%;
+  bottom: 5%;
+  background-color: rgba(78, 100, 107, 1);
+  color: rgb(213, 217, 222);
+  text-align: center;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 5px 0px;
 }
 
 .space-bottom {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-
-
-
 
 /* Styling for the Contact Form */
 
-
 .form-group {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 label {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .btn {
-    margin-top: 10px;
-    background-color: rgb(99, 158, 191);
-    border-color: rgb(99, 158, 191);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+  margin-top: 10px;
+  background-color: rgb(99, 158, 191);
+  border-color: rgb(99, 158, 191);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .btn:hover {
-    background-color: rgb(96, 107, 204);
+  background-color: rgb(96, 107, 204);
 }
-
-
-
 
 /* Styling for the Footer*/
 
 .page-footer {
-    background-color: rgb(180, 185, 191);
-    margin-top: 40px !important;
-    border-top: 3.5px solid rgb(78, 100, 107)!important;
+  background-color: rgb(180, 185, 191);
+  margin-top: 40px !important;
+  border-top: 3.5px solid rgb(78, 100, 107) !important;
 }
 
 .footer-copyright {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .py-3 {
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Media queries*/
 
 @media all and (max-width: 823px) {
-    .name {
-        width: 100%;
-        margin-left: 0%;
-        text-align: center;
-        box-shadow: none;
-    }
-    .nav-item {
-        padding: 0px 25px;
-        margin: 15px 0px;
-    }
-    .nav-link {
-        padding: 0px 16px;
-    }
-    .nav {
-        margin: auto;
-    }
-
+  .name {
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+    box-shadow: none;
+  }
+  .nav-item {
+    padding: 0px 25px;
+    margin: 15px 0px;
+  }
+  .nav-link {
+    padding: 0px 16px;
+  }
+  .nav {
+    margin: auto;
+  }
 }
 
 @media all and (max-width: 992px) {
-    .formWrapper, .aboutWrapper, .portWrapper {
-        margin-bottom: 17%;
-    }
+  .formWrapper,
+  .aboutWrapper,
+  .portWrapper {
+    margin-bottom: 17%;
+  }
 }
 
-
 @media all and (min-width: 768px) {
-    .formWrapper {
-        width: 602.39px;   
-    }
+  .formWrapper {
+    width: 602.39px;
+  }
 }
 
 @media all and (min-width: 992px) {
-
-    .portWrapper, .aboutWrapper  {
-        width: 781.6px;
-    }
-
+  .portWrapper,
+  .aboutWrapper {
+    width: 781.6px;
+  }
 }
