@@ -81,21 +81,21 @@ p {
   font-weight: 500;
 }
 
-.pic-me,
-.wide-screen {
+.pic-me-sm,
+.pic-me-lg {
   height: 218px;
   width: 218px;
   border: 5px solid rgb(78, 100, 107);
 }
 
-.pic-me {
+.pic-me-sm {
   width: 100%;
   height: auto;
   margin-bottom: 16px;
 }
 
-.wide-screen {
-  float: left;
+.pic-me-lg {
+  width: 210px;
   margin-bottom: 5px;
   margin-right: 10px;
 }
@@ -104,6 +104,7 @@ p {
 
 .box {
   position: relative;
+  float: left;
   padding: 0px;
   margin: 0px 15px;
 }
@@ -111,13 +112,14 @@ p {
 .portImage {
   margin-top: 30px;
   width: 100%;
+  height: auto;
   border: 5px solid rgb(78, 100, 107);
 }
 
 .banner {
-  position: absolute;
+  position: relative;
+  bottom: 9vh;
   width: 100%;
-  bottom: 5%;
   background-color: rgba(78, 100, 107, 1);
   color: rgb(213, 217, 222);
   text-align: center;
